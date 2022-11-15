@@ -2,17 +2,17 @@
 @import url(./footer.css);
 @import url(./responsive.css);
 @import url(./cartSidebar.css);
-:root{
-    --primary:#8b572a;
-    --secondary:#E80E0E;
+:root {
+  --primary: #8b572a;
+  --secondary: #e80e0e;
 }
-body{
-    font-family: "Quicksand", sans-serif;
+body {
+  font-family: "Quicksand", sans-serif;
 }
-.product-item-sidebar .row > *{
+.product-item-sidebar .row > * {
   padding: 0;
 }
-.name-product h2{
+.name-product h2 {
   text-align: center;
   font-size: 11px;
 }
@@ -20,7 +20,7 @@ body{
 .count-sidebar {
   margin: 14px 0;
 }
-.cart-info{
+.cart-info {
   background-color: #fff;
   padding: 4vh 5vh;
   border-bottom-left-radius: 1rem;
@@ -30,11 +30,11 @@ body{
   height: 180px;
   object-fit: cover;
 }
-.product-item-sidebar .image img{
+.product-item-sidebar .image img {
   height: 110px;
   object-fit: cover;
 }
-.product-item-sidebar .info{
+.product-item-sidebar .info {
   width: 63%;
 }
 .btn-minus-count,
@@ -42,219 +42,205 @@ body{
   cursor: pointer;
   background-color: #ddd;
 }
-.minus-sidebar, .plus-sidebar {
+.minus-sidebar,
+.plus-sidebar {
   cursor: pointer;
-
 }
 .count-product {
   padding: 5px 10px;
   cursor: pointer;
 }
-.product-list .image{
+.product-list .image {
   width: 23%;
 }
-.product-list img{
+.product-list img {
   width: 100%;
 }
-.product-item-list img{
+.product-item-list img {
   width: 100%;
 }
 /* .info-clothes p:nth-child(1){
   width: 250px;
 } */
-.close{
+.close {
   margin-left: auto;
   font-size: 0.7rem;
 }
 .discount-form {
-    height: 60px;
+  height: 60px;
 }
 .bill {
-    border-radius: 5%;
+  border-radius: 5%;
 }
 .cart-detail .info {
   margin: 10px;
   width: 50%;
 }
-.cart-title h2{
-    color: var(--primary);
-    font-size: 20px;
-    font-weight: 600;
+.cart-title h2 {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 600;
 }
-.bill h2{
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 20px;
+.bill h2 {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
 }
-.total-money{
-    color: var(--secondary) ;
+.total-money {
+  color: var(--secondary);
 }
-.note ul{
-    padding-left: 15px;
+.note ul {
+  padding-left: 15px;
 }
-.discount-form button{
-    background-color: var(--secondary);
-    border-radius: 10px;
+.discount-form button {
+  background-color: var(--secondary);
+  border-radius: 10px;
 }
-.discount-form a{
-    color: white;
+.discount-form a {
+  color: white;
 }
 /* CSS */
 .button-82-pushable {
-    position: relative;
-    border: none;
-    background: transparent;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-    transition: filter 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-82-shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    background: hsl(0deg 0% 0% / 0.25);
-    will-change: transform;
-    transform: translateY(2px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
-  
-  .button-82-edge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    background: linear-gradient(
-      to left,
-      hsl(340deg 100% 16%) 0%,
-      hsl(340deg 100% 32%) 8%,
-      hsl(340deg 100% 32%) 92%,
-      hsl(340deg 100% 16%) 100%
-    );
-  }
-  
-  .button-82-front {
-    display: block;
-    position: relative;
-    padding: 12px 27px;
-    font-weight: 700;
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
-    border-radius: 12px;
-    font-size: 1.1rem;
-    color: white;
-    background: hsl(345deg 100% 47%);
-    will-change: transform;
-    transform: translateY(-4px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  font-weight: 700;
+
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 8px 15px;
   }
-  
-  @media (min-width: 768px) {
-    .button-82-front {
-      font-size: 1.25rem;
-      padding: 8px 15px;
-    }
-  }
-  
-  .button-82-pushable:hover {
-    filter: brightness(110%);
-    -webkit-filter: brightness(110%);
-  }
-  
-  .button-82-pushable:hover .button-82-front {
-    transform: translateY(-6px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  
-  .button-82-pushable:active .button-82-front {
-    transform: translateY(-2px);
-    transition: transform 34ms;
-  }
-  
-  .button-82-pushable:hover .button-82-shadow {
-    transform: translateY(4px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  
-  .button-82-pushable:active .button-82-shadow {
-    transform: translateY(1px);
-    transition: transform 34ms;
-  }
-  
-  .button-82-pushable:focus:not(:focus-visible) {
-    outline: none;
-  }
-  @media (max-width:990px) {
-    /* .info-clothes{
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+@media (max-width: 990px) {
+  /* .info-clothes{
         padding: 10px 0 0 10px;
     } */
-    .price{
-        padding: 5px 0 0 10px;
-    }
-    .product-list .image {
-      width: 35%;
-    }
+  .price {
+    padding: 5px 0 0 10px;
   }
-  @media (max-width:768px) {
-    /* .info-clothes{
+  .product-list .image {
+    width: 35%;
+  }
+}
+@media (max-width: 768px) {
+  /* .info-clothes{
         padding: 10px 0 0 10px;
     } */
-    
+}
+
+@media (max-width: 567px) {
+  .info {
+    margin-left: 5px;
   }
-  
-  @media (max-width:567px) {
-   
-    .info{
-        margin-left: 5px;
-    }
-    .price{
-        padding: 0 ;
-    }
-    .info-clothes{
-        padding: 0px;
-    }
-    .info h2{
-        padding-right: 0;
-    }
-    .cart-detail .info p {
-      font-size: 14px;
-    }
+  .price {
+    padding: 0;
   }
-  
-  @media (max-width:420px) {
-    .product-list .image {
-      width: 50%;
+  .info-clothes {
+    padding: 0px;
   }
-  
+  .info h2 {
+    padding-right: 0;
   }
-@media (max-width:320px) {
+  .cart-detail .info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .product-list .image {
+    width: 50%;
+  }
+}
+@media (max-width: 320px) {
   .count-product {
     padding: 5px;
   }
   .cart-detail .info {
     margin: 10px 5px;
-}
-.product-list .image {
-  width: 60%;
-}
+  }
+  .product-list .image {
+    width: 60%;
+  }
 }
